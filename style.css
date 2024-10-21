@@ -1,6 +1,14 @@
-body
-{
-    border:2px solid red;
+body {
     background-color: lightpink;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    border: 2px solid red;
+    padding: 20px;
     text-align: center;
 }
